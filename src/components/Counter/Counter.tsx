@@ -11,7 +11,9 @@ export const Counter: React.FC<CounterProps> = ({}) => {
         <button className="btn text-xl" onClick={() => setCount((x) => x + 1)}>
           Increment
         </button>
-        <div className="text-3xl font-bold">Count : {count}</div>
+        <div className="text-3xl font-bold" id="count">
+          Count : {count}
+        </div>
         <button
           disabled={count === 0}
           className={`btn text-xl ${
