@@ -1,5 +1,10 @@
 # Demo ✨
 
+**Run Application**
+
+1. `yarn`
+2. `yarn dev`
+
 **Application Overview**
 
 - Locators
