@@ -1,12 +1,12 @@
 # Demo ✨
 
-** Application Overview **
+**Application Overview**
 
 - Locators
 - Counter
 - Todo App
 
-** Setup **
+**Setup**
 
 - Install Cypress to project `yarn add cypress --dev` or `npm install cypress --save-dev`
 - Run Cypress `npx cypress open`
@@ -15,13 +15,13 @@
 - Creating a test file `[name].spec.(js | ts)`
 - Block and Test Cases
 
-** Locators **
+**Locators**
 
 - Get - Get one or more DOM elements by selector or alias.
 - Contains - Get the DOM element containing the text. DOM elements can contain more than the desired text and still match.
 - Find - Get the descendent DOM elements of a specific selector.
 
-** Unit Test : Counter Component **
+**Unit Test : Counter Component**
 
 - Click Increment Button (n) times
 - Check count if it is equal to (n)
@@ -29,7 +29,7 @@
 - Check count if it is equal to 0
 - Check if the Decrement button is disabled
 
-** E2E Test todo app **
+**E2E Test todo app**
 
 - Click "New Todo" Button
 - Check if the text input appears
