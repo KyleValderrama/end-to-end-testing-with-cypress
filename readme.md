@@ -28,22 +28,22 @@
 
 **Unit Test : Counter Component**
 
-- Click Increment Button (n) times
-- Check count if it is equal to (n)
-- Click Decrement Button (n) times
-- Check count if it is equal to 0
-- Check if the Decrement button is disabled
+1. Click Increment Button (n) times
+2. Check count if it is equal to (n)
+3. Click Decrement Button (n) times
+4. Check count if it is equal to 0
+5. Check if the Decrement button is disabled
 
 **E2E Test todo app**
 
-- Click "New Todo" Button
-- Check if the text input appears
-- Click Add Button
-- Check if error message appears
-- Type a todo in the input
-- Click Add
-- Check if todo-card has new child
-- Double click the todo-card to mark as done
-- Check if todo-card has "done" text
-- Double click the todo-card to remove the mark as done
-- Check if "done" in todo-card is removed
+1. Click "New Todo" Button
+2. Check if the text input appears
+3. Click Add Button
+4. Check if error message appears
+5. Type a todo in the input
+6. Click Add
+7. Check if todo-card has new child
+8. Double click the todo-card to mark as done
+9. Check if todo-card has "done" text
+10. Double click the todo-card to remove the mark as done
+11. Check if "done" in todo-card is removed
