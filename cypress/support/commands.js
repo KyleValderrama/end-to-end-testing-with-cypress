@@ -27,3 +27,7 @@
 Cypress.Commands.add("getByTestId", (testId) => {
   cy.get(`[data-testid='${testId}']`);
 });
+
+Cypress.Commands.add("getByBtnClassName", (text) => {
+  cy.contains(".btn-with-class.btn-with-many-class", text);
+});
