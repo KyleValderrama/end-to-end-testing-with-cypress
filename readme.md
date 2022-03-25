@@ -1,6 +1,6 @@
 # Demo ✨
 
-**Run Application**
+**Run the Application**
 
 1. `yarn`
 2. `yarn dev`
@@ -13,7 +13,7 @@
 
 **Setup**
 
-- Install Cypress to project `yarn add cypress --dev` or `npm install cypress --save-dev`
+- Install Cypress to the project `yarn add cypress --dev` or `npm install cypress --save-dev`
 - Run Cypress `npx cypress open`
 - Cypress Directory
 - cypress.json
