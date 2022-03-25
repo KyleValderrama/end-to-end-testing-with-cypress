@@ -8,7 +8,7 @@ export const Todos: React.FC<TodosProps> = ({}) => {
       done: true,
     },
     {
-      todo: "Learn Cypress",
+      todo: "Learn React",
       done: false,
     },
   ]);
