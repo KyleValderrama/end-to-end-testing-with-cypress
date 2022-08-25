@@ -1,24 +1,16 @@
 /// <reference types="cypress" />
 
-describe("Counter", () => {
-  beforeEach(() => {
-    cy.visit("/counter");
-  });
+// Component Test : Counter
 
-  const n = 10;
+// Case [0]: Count should be equal to 0 and "Decrement" button should be disabled
+// 1. Check count if it is equal to 0
+// 2. Check "Decrement" button if it is disabled
 
-  it("should equal to (n) when clicked Increment (n) times", () => {
-    [...Array(n)].map(() => {
-      cy.contains("Increment").click();
-    });
-    cy.get("#count").should("contain", n);
-    [...Array(n)].map(() => {
-      cy.contains("Decrement").click();
-    });
-    cy.get("#count").should("contain", 0);
+// Case [1]: Count should be equal to (n) when 'Increment' button is clicked (n) times
+// 1. Click "Increment" Button (n) times
+// 2. Check count if it is equal to (n)
 
-    cy.contains("Decrement").should("be.disabled");
-  });
-
-  it("should equal to 0 when clicked Decrement (n) times", () => {});
-});
+// Case [2]: Count should be equal to 0 when 'Decrement' button is clicked (n) times and 'Decrement' button should be disabled
+// 1. Click "Decrement" Button (n) times
+// 2. Check count if it is equal to 0
+// 3. Check "Decrement" button if it is disabled

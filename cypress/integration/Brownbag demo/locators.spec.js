@@ -1,30 +1,14 @@
 /// <reference types="cypress" />
 
-describe("Locators", () => {
-  beforeEach(() => {
+// Basic Commands: Locators
+
+describe("Basic Commands: Locators", () => {
+  before(() => {
     cy.visit("/locators");
   });
 
-  it("locate items via .get() command", () => {
-    // Get element with tag name
-    cy.get("button");
-
-    // Get element with class name
-    cy.get(".btn-with-class");
-
-    // Get element with many class name
-    cy.get(".btn-with-class.btn-with-many-class");
-
-    // Get element with class name
-    cy.get("[type='submit']");
-  });
-
-  it("locate items via .contains() command", () => {
-    cy.contains("Not Unique Text");
-    cy.getByBtnClassName("Not Unique Text");
-  });
-
-  it("locate items via .find() command", () => {
-    cy.get("form").find(".btn-1");
-  });
+  // Case [0]: Locate elements with .get() command
+  it("Locate elements with .get() command", () => {});
+  // Case [1]: Locate elements with .contains() command
+  // Case [2]: Locate elements with .find() command
 });

@@ -26,7 +26,9 @@
 - Contains - Get the DOM element containing the text. DOM elements can contain more than the desired text and still match.
 - Find - Get the descendent DOM elements of a specific selector.
 
-**Unit Test : Counter Component**
+**Component Test : Counter Component**
+
+##### `Count should equal to (n) when clicked (n) times`
 
 1. Click Increment Button (n) times
 2. Check count if it is equal to (n)
